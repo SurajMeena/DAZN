@@ -1,0 +1,43 @@
+### Get all movies
+GET http://localhost:3000/api/movies/all
+
+###
+
+### Search for movies
+GET http://localhost:3000/api/movies/search?q=fiction
+
+###
+
+### Update a movie
+POST http://localhost:3000/api/movies/add
+Content-Type: application/json
+
+{
+  "movie": {
+    "movieId": 5,
+    "title": "New Movie Title",
+    "genre": "New Movie Genre",
+    "rating": 5,
+    "streamingLink": "https://www.newlink.com"
+  }
+}
+
+###
+
+### Add a new movie
+PUT http://localhost:3000/api/movies/update
+Content-Type: application/json
+
+{
+  "movie": {
+    "movieId": 5,
+    "title": "New Movie",
+    "genre": "New Genre"
+  }
+}
+
+###
+### Delete a movie
+DELETE http://localhost:3000/api/movies/delete/5
+
+###
