@@ -13,7 +13,7 @@ This project was created with [express-generator-typescript](https://github.com/
 - `/api/movies/delete/:id` - DELETE movie with given movieId from database
 - `/api/movies/add` - POST request to add a new movie to the database
 
-**Note**: Sample requests are available in `sample-requests.http` file and can be run just like postman using intelliJ
+**Note**: Sample requests are available in `all-requests.http` file and can be run just like postman using intelliJ
 
 ## Database
 Setup your own mongodb database and populate DB_URL field in `development.env`
